@@ -1,0 +1,31 @@
+:root {
+  --primary-color: hsl(265, 100%, 30%);
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+
+header.main-header {
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 5rem;
+  background: hsl(265, 100%, 30%);
+}
+
+header.main-header h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+}

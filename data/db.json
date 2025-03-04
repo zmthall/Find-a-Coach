@@ -1,0 +1,21 @@
+{
+  "coaches": [
+    {
+      "id": "HG!fA-@^y2",
+      "firstName": "Zachary",
+      "lastName": "Thallas",
+      "badges": ["frontend", "backend", "career"],
+      "fee": 40,
+      "description": "Zach is a Full Stack Web Developer and is open to coach anyone that wants to learn"
+    },
+    {
+      "id": "tdf!f_$-wX",
+      "firstName": "James",
+      "lastName": "Dean",
+      "badges": ["frontend", "career"],
+      "fee": 60,
+      "description": "James is here to help you prepare for a career in Frontend Web Development"
+    }
+  ],
+  "requests": []
+}
