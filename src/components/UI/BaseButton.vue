@@ -19,9 +19,16 @@ export default {
 </script>
 
 <style scoped>
+a,
+button {
+  display: inline-block;
+  font-size: 1.25rem;
+  line-height: 1.75;
+}
+
 a.mode-header {
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.25rem 1rem;
   color: rgba(255, 152, 255, 0.6);
   border: 1px solid transparent;
   font-size: 0.8rem;
@@ -40,9 +47,9 @@ button.mode-secondary,
 a.mode-secondary {
   text-decoration: none;
   background: none;
-  padding: 0.5rem 1.25rem;
+  padding: 0.25rem 1.25rem;
   border: 1px solid var(--primary-color);
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   color: var(--primary-color);
   cursor: pointer;
 }
@@ -56,9 +63,9 @@ button.mode-primary,
 a.mode-primary {
   text-decoration: none;
   background: var(--primary-color);
-  padding: 0.5rem 1.25rem;
+  padding: 0.25rem 1.25rem;
   border: 1px solid var(--primary-color);
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   color: white;
   cursor: pointer;
 }

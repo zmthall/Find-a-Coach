@@ -3,15 +3,18 @@
     <h2>Find Your Coach</h2>
     <div class="filter-input-wrapper">
       <div class="filter-input">
-        <input type="checkbox" name="front" id="front" value="frontend" v-model="badgeFilter" />
+        <input type="checkbox" name="front" id="front" value="frontend" v-model="coachStore.badgeFilter"
+          @change="testing" />
         <label for="front">Frontend</label>
       </div>
       <div class="filter-input">
-        <input type="checkbox" name="back" id="back" value="backend" v-model="badgeFilter" />
+        <input type="checkbox" name="back" id="back" value="backend" v-model="coachStore.badgeFilter"
+          @change="testing" />
         <label for="back">Backend</label>
       </div>
       <div class="filter-input">
-        <input type="checkbox" name="career" id="career" value="career" v-model="badgeFilter" />
+        <input type="checkbox" name="career" id="career" value="career" v-model="coachStore.badgeFilter"
+          @change="testing" />
         <label for="career">Career</label>
       </div>
     </div>
@@ -19,12 +22,18 @@
 </template>
 
 <script>
+import { useCoachStore } from "../../stores/CoachStore.js"
 export default {
   data() {
     return {
-      badgeFilter: ["frontend", "backend", "career"],
-    };
+      coachStore: useCoachStore()
+    }
   },
+  methods: {
+    testing() {
+      console.log(this.coachStore.badgeFilter)
+    }
+  }
 };
 </script>
 

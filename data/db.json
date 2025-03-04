@@ -1,21 +1,95 @@
 {
   "coaches": [
     {
-      "id": "HG!fA-@^y2",
-      "firstName": "Zachary",
-      "lastName": "Thallas",
-      "badges": ["frontend", "backend", "career"],
-      "fee": 40,
-      "description": "Zach is a Full Stack Web Developer and is open to coach anyone that wants to learn"
-    },
-    {
       "id": "tdf!f_$-wX",
       "firstName": "James",
       "lastName": "Dean",
-      "badges": ["frontend", "career"],
+      "badges": [
+        "frontend",
+        "career"
+      ],
       "fee": 60,
       "description": "James is here to help you prepare for a career in Frontend Web Development"
+    },
+    {
+      "id": "tdf!f",
+      "firstName": "Jimmy",
+      "lastName": "Dean",
+      "badges": [
+        "frontend"
+      ],
+      "fee": 60,
+      "description": "Jimmy is here to help you prepare in Frontend Web Development"
+    },
+    {
+      "id": "td_$-wX",
+      "firstName": "Sam",
+      "lastName": "Walton",
+      "badges": [
+        "career"
+      ],
+      "fee": 60,
+      "description": "Sam is here to help you prepare for a career!"
+    },
+    {
+      "id": "dINAgjV3eU",
+      "firstName": "Zachary",
+      "lastName": "Thallas",
+      "badges": [
+        "frontend",
+        "backend",
+        "career"
+      ],
+      "fee": 40,
+      "description": "Zach is a Full Stack Web Developer and is open to coach anyone who wants to learn"
+    },
+    {
+      "id": "-3JjtRpB4l",
+      "firstName": "Zachary",
+      "lastName": "Thallas",
+      "badges": [
+        "frontend",
+        "backend",
+        "career"
+      ],
+      "fee": "50",
+      "description": "Testing"
     }
   ],
-  "requests": []
+  "requests": [
+    {
+      "coachID": "-3JjtRpB4l",
+      "coachName": "Zachary Thallas",
+      "email": "test@test.com",
+      "message": "Testing"
+    },
+    {
+      "id": "f54f",
+      "email": "test@test.com",
+      "message": "test",
+      "coachID": "tdf!f_$-wX",
+      "coachName": "James Dean"
+    },
+    {
+      "id": "96d8",
+      "email": "zmthall@gmail.com",
+      "message": "testing",
+      "coachID": "tdf!f",
+      "coachName": "Jimmy Dean"
+    },
+    {
+      "id": "4dde",
+      "email": "test@test.com",
+      "message": "test",
+      "coachID": "-3JjtRpB4l",
+      "coachName": "Zachary Thallas"
+    },
+    {
+      "id": "9bd7",
+      "email": "test@test.com",
+      "message": "test",
+      "coachID": "td_$-wX",
+      "coachName": "Sam Walton"
+    }
+  ]
 }
